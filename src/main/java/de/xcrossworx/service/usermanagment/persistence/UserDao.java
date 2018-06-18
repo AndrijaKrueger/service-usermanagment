@@ -10,33 +10,39 @@ import java.util.List;
 
 public class UserDao {
 
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("UserDb_PU");
 
 
     public UserDao() {
     }
 
-//    public User findById(Long id) {
-//        return get(id);
-//    }
-//
-//    public long create(User user) {
-//        return persist(user).getId();
-//    }
+    public User findById(int id) {
+        EntityManager em = emf.createEntityManager();
+        return em.find(User.class, id);
+    }
+
+    public User update(User user) {
+        EntityManager em = emf.createEntityManager();
+        em.getTransaction().begin();
+
+        em.merge(user);
+
+        em.getTransaction().commit();
+        em.close();
+        return user;
+    }
 
     public List<User> findAll() {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("UserDb_PU");
         EntityManager em = emf.createEntityManager();
-
         List<User> users = em.createNamedQuery("User.findAll").getResultList();
         return users;
     }
 
     public void init() {
         try{
-            EntityManagerFactory emf = Persistence.createEntityManagerFactory("UserDb_PU");
             EntityManager em = emf.createEntityManager();
-
             em.getTransaction().begin();
+
             em.persist(new User(0,"Andrija"));
             em.persist(new User(0,"Roman"));
             em.persist(new User(0,"Kea"));

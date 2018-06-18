@@ -1,6 +1,7 @@
 package de.xcrossworx.service.usermanagment.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.hibernate.annotations.Fetch;
 
 import javax.persistence.*;
 
@@ -11,13 +12,12 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @JsonProperty
     private int id;
 
-    @JsonProperty
     private String name;
 
-    @JsonProperty
+    private String blubber;
+
     @OneToOne(cascade = CascadeType.ALL)
     private Contact contacts;
 
@@ -35,6 +35,22 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Contact getContacts() {
+        return contacts;
+    }
+
+    public String getBlubber() {
+        return blubber;
+    }
+
+    public void setBlubber(String blubber) {
+        this.blubber = blubber;
+    }
+
+    public void setContacts(Contact contacts) {
+        this.contacts = contacts;
     }
 
     public User() {
