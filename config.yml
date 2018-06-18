@@ -9,9 +9,3 @@ server:
   - type: http
     port: 9596
 
-database:
-  # the name of your JDBC driver
-  driverClass: org.postgresql.Driver
-
-  # the JDBC URL
-  url: jdbc:postgresql://localhost:5432/userServiceDb

@@ -2,12 +2,9 @@ package de.xcrossworx.service.usermanagment.App;
 
 import com.codahale.metrics.health.HealthCheck;
 import de.xcrossworx.service.usermanagment.healthcheck.UserResourceHealthCheck;
-import de.xcrossworx.service.usermanagment.model.User;
 import de.xcrossworx.service.usermanagment.persistence.UserDao;
 import de.xcrossworx.service.usermanagment.resources.UserResource;
 import io.dropwizard.Application;
-import io.dropwizard.db.DataSourceFactory;
-import io.dropwizard.hibernate.HibernateBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 

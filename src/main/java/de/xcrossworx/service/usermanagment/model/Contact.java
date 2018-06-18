@@ -1,43 +1,28 @@
 package de.xcrossworx.service.usermanagment.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import javax.persistence.*;
 
 @Entity
-@Table(name = "contacts")
+@Table(name = "Contacts")
 @NamedQueries({@NamedQuery(name = "Contact.findAll", query = "select c from Contact c")})
-public class Contact {
+public class Contact extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @JsonProperty
-    private int id;
-
-    @JsonProperty
     private String mail;
 
-    @JsonProperty
     private String phone;
 
-    @JsonProperty
     private String mobile;
+
 
     public Contact() {
     }
 
-    public Contact(String mail, String phone, String mobile) {
+    public Contact(int id, String name, String mail, String phone, String mobile) {
+        setId(id);
+        setName(name);
         this.mail = mail;
         this.phone = phone;
         this.mobile = mobile;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getMail() {
