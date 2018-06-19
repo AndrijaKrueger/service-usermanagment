@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
 
-    <persistence-unit name="UserDb_PU" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="Postgres_PU" transaction-type="RESOURCE_LOCAL">
 
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 
@@ -12,8 +12,8 @@
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/userServiceDb" />
 
-            <property name="javax.persistence.jdbc.user" value="serviceUserDb"/>
-            <property name="javax.persistence.jdbc.password" value="Neustart-123"/>
+            <property name="javax.persistence.jdbc.user" value="serviceUser"/>
+            <property name="javax.persistence.jdbc.password" value="aG3Csdo365hztHfRf"/>
 
 
             <property name="eclipselink.ddl-generation" value="create-or-extend-tables" />

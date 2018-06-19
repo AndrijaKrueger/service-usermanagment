@@ -3,7 +3,6 @@ package de.xcrossworx.service.usermanagment.resources;
 import com.codahale.metrics.annotation.Timed;
 import de.xcrossworx.service.usermanagment.model.User;
 import de.xcrossworx.service.usermanagment.persistence.UserDao;
-import io.dropwizard.jersey.PATCH;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -15,8 +14,10 @@ import java.util.List;
 public class UserResource {
 
     private UserDao userDao;
+    private final String systemName;
 
-    public UserResource(UserDao userDao) {
+    public UserResource(UserDao userDao, String systemName) {
+        this.systemName = systemName;
         this.userDao = userDao;
     }
 
@@ -54,7 +55,6 @@ public class UserResource {
     }
 
     @POST
-    @Path("/update")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     @Timed

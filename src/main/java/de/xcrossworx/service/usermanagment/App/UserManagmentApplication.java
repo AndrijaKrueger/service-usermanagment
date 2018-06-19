@@ -1,6 +1,5 @@
 package de.xcrossworx.service.usermanagment.App;
 
-import com.codahale.metrics.health.HealthCheck;
 import de.xcrossworx.service.usermanagment.healthcheck.UserResourceHealthCheck;
 import de.xcrossworx.service.usermanagment.persistence.UserDao;
 import de.xcrossworx.service.usermanagment.resources.UserResource;
@@ -26,18 +25,11 @@ public class UserManagmentApplication extends Application<UserManagmentConfigura
     public void run(UserManagmentConfiguration userManagmentConfiguration, Environment environment) throws Exception {
         final UserDao userDao = new UserDao();
 
-        environment.jersey().register(getUserResource(userDao));
+        final UserResource userResource = new UserResource(userDao, userManagmentConfiguration.getDefaultName());
+        environment.jersey().register(userResource);
 
-        environment.healthChecks().register("template", getUserHealthCheck());
-    }
-
-    private HealthCheck getUserHealthCheck() {
         final UserResourceHealthCheck userResourceHealthCheck = new UserResourceHealthCheck();
-        return userResourceHealthCheck;
+        environment.healthChecks().register("template", userResourceHealthCheck);
     }
 
-    private UserResource getUserResource(UserDao userDao) {
-        final UserResource userResource = new UserResource(userDao);
-        return userResource;
-    }
 }

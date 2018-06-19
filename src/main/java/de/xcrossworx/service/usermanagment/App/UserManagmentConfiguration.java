@@ -8,20 +8,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 public class UserManagmentConfiguration extends Configuration {
 
     @NotEmpty
-    private String template;
-
-    @NotEmpty
-    private String defaultName = "Stranger";
-
-    @JsonProperty
-    public String getTemplate() {
-        return template;
-    }
-
-    @JsonProperty
-    public void setTemplate(String template) {
-        this.template = template;
-    }
+    private String defaultName = "User Management Service";
 
     @JsonProperty
     public String getDefaultName() {
