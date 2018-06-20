@@ -17,6 +17,8 @@ public class User extends BaseEntity {
         setId(id);
         setName(name);
         this.contacts = contacts;
+
+
     }
 
     public Contact getContacts() {
