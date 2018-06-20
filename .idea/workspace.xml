@@ -5,11 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd7ca39-c0e5-4345-90c9-5c54b8cb7a70" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/pointsConfig.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/service-pointmanagment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/App/PointManagmentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/App/PointManagmentConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/handler/LogDataRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/handler/LogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Dto/LogMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Dto/LogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/StatisticData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/enums/HitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/persistence/PointDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/resources/PointResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-pointsmanagment/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-pointsmanagment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-pointsmanagment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-pointsmanagment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-pointsmanagment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-pointsmanagment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-pointsmanagment/service_pointmanagment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-pointsmanagment/service_pointmanagment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../service_logmanagment/target/" />
+    <ignored path="$PROJECT_DIR$/../service-pointsmanagment/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,21 +56,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/persistence/UserDao.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="76" column="57" lean-forward="true" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/persistence/LogDao.java">
+      <file leaf-file-name="PointResource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/resources/PointResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+            <state relative-caret-position="646">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,43 +78,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/BaseEntity.java">
+      <file leaf-file-name="PointDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/persistence/PointDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/model/LogMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogMessageResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/resources/LogMessageResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchDtoHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/handler/SearchDtoHandler.java">
+      <file leaf-file-name="LogHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/handler/LogHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,72 +103,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/model/dto/SearchDto.java">
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserManagmentApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/App/UserManagmentApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="833">
+              <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserManagmentConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/App/UserManagmentConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -178,7 +125,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../service-pointsmanagment" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -193,7 +140,6 @@
         <option value="$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/App/LogManagmentApplication.java" />
         <option value="$PROJECT_DIR$/../service_logmanagment/logConfig.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/model/SystemName.java" />
         <option value="$PROJECT_DIR$/../service_logmanagment/src/main/resources/META-INF/persistence.xml" />
@@ -214,6 +160,23 @@
         <option value="$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/model/dto/SearchDto.java" />
         <option value="$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/handler/SearchDtoHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/pom.xml" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/App/PointManagmentConfiguration.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/App/PointManagmentApplication.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/pointsConfig.yml" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/LogType.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/LogMessage.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/handler/LogDataRunnable.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/handler/LogHandler.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Dto/LogMessage.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/StatisticData.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/enums/HitType.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Point.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/resources/PointResource.java" />
+        <option value="$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/persistence/PointDao.java" />
       </list>
     </option>
   </component>
@@ -232,12 +195,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service-usermanagment" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -263,90 +221,99 @@
           <expand>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logmanagment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="pointmanagment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pointmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pointmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="pointmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="pointmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="pointmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="pointmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_logmanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="service-pointsmanagment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -389,15 +356,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,15 +366,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service_usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service_usermanagment" type="b2602c69:ProjectViewProjectNode" />
@@ -447,8 +396,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,7 +405,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../service_logmanagment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../service-pointsmanagment/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -464,7 +413,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrija\Workspace\Projekte\000_Abend_Programm\service-pointsmanagment" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrija\Workspace\Projekte\000_Abend_Programm\service-pointsmanagment\src\main\resources" />
       <recent name="C:\Users\Andrija\Workspace\Projekte\000_Abend_Programm\service_usermanagment\src\main\resources" />
     </key>
   </component>
@@ -486,6 +439,12 @@
       <module name="service_logmanagment" />
       <option name="PROGRAM_PARAMETERS" value="server logConfig.yml" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../service_logmanagment" />
+    </configuration>
+    <configuration name="Run Points Service" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="de.xcrossworx.service.pointmanagment.App.PointManagmentApplication" />
+      <module name="service-pointmanagment" />
+      <option name="PROGRAM_PARAMETERS" value="server pointsConfig.yml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../service-pointsmanagment" />
     </configuration>
     <configuration name="Run USER Service" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="de.xcrossworx.service.usermanagment.App.UserManagmentApplication" />
@@ -549,6 +508,7 @@
     <configuration name="Run ALL Services" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
       <runConfiguration name="Run USER Service" type="Application" />
       <runConfiguration name="Run LOG Service" type="Application" />
+      <runConfiguration name="Run Points Service" type="Application" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -573,6 +533,7 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Application.Run Points Service" />
       <item itemvalue="Application.Run USER Service" />
       <item itemvalue="Application.Run LOG Service" />
       <item itemvalue="Maven.Package User Resource" />
@@ -599,12 +560,13 @@
       <workItem from="1529408544698" duration="7609000" />
       <workItem from="1529420329906" duration="1095000" />
       <workItem from="1529484573655" duration="654000" />
-      <workItem from="1529487927065" duration="8664000" />
+      <workItem from="1529487927065" duration="9632000" />
+      <workItem from="1529502268239" duration="4082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49314000" />
+    <option name="totallyTimeSpent" value="54364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -629,20 +591,20 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32942098" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.413928" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3826291" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24726135" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3826291" />
       <window_info id="Persistence" order="2" sideWeight="0.5007342" side_tool="true" weight="0.25755167" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.20349762" />
-      <window_info anchor="bottom" id="SOQL Query" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.3481717" />
       <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info anchor="bottom" id="SOQL Query" order="7" />
       <window_info anchor="bottom" id="Log Viewer" order="7" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32942098" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32942098" />
     </layout>
@@ -667,127 +629,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/App/UserManagmentApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/resources/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/persistence/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/App/UserManagmentApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/resources/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/healthcheck/UserResourceHealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-hibernate/1.3.3/dropwizard-hibernate-1.3.3.jar!/io/dropwizard/hibernate/AbstractDAO.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f22b555e-6b46-4139-8fae-096d0000af35/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -841,23 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../service_logmanagment/logConfig.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
@@ -872,20 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -914,21 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="53" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/handler/LogDataRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,34 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="814" column="28" selection-start-line="814" selection-start-column="11" selection-end-line="814" selection-end-column="28" />
-          <folding>
-            <element signature="e#33047#33048#0" expanded="true" />
-            <element signature="e#33096#33097#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/handler/LogHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/LogMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/LogType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -974,43 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/resources/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/App/UserManagmentApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/App/UserManagmentConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -1026,68 +760,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/persistence/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="76" column="57" lean-forward="true" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+        <state relative-caret-position="1105">
+          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/model/LogMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/model/dto/SearchDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
+        <state relative-caret-position="612">
           <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
             <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/resources/LogMessageResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="595">
           <caret line="39" column="24" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/persistence/LogDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        <state relative-caret-position="629">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1097,7 +807,169 @@
     <entry file="file://$PROJECT_DIR$/../service_logmanagment/src/main/java/de/xcrossworx/service/logmanagment/handler/SearchDtoHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="86" selection-end-column="8" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/App/PointManagmentConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/App/PointManagmentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/App/UserManagmentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/resources/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service_logmanagment/logConfig.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/pointsConfig.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/LogType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/handler/LogDataRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="90" lean-forward="true" selection-start-line="20" selection-start-column="90" selection-end-line="20" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/handler/LogDataRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/handler/LogHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/LogMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Dto/LogMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Dto/LogType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1106,8 +978,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/xcrossworx/service/usermanagment/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/enums/HitType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/StatisticData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/model/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/handler/LogHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/persistence/PointDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../service-pointsmanagment/src/main/java/de/xcrossworx/service/pointmanagment/resources/PointResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
