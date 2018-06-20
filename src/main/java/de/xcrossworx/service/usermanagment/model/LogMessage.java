@@ -4,7 +4,7 @@ public class LogMessage {
 
     private String systemName;
 
-    private String logType;
+    private LogType logType;
 
     private String logMethod;
 
@@ -40,11 +40,11 @@ public class LogMessage {
         this.systemName = systemName;
     }
 
-    public String getLogType() {
+    public LogType getLogType() {
         return logType;
     }
 
-    public void setLogType(String logType) {
+    public void setLogType(LogType logType) {
         this.logType = logType;
     }
 
@@ -75,7 +75,7 @@ public class LogMessage {
     public LogMessage() {
     }
 
-    public LogMessage(String systemName, String logType, String logMethod, String logMessage, String logData, String exMessage, String exStacktrace) {
+    public LogMessage(String systemName, LogType logType, String logMethod, String logMessage, String logData, String exMessage, String exStacktrace) {
         this.systemName = systemName;
         this.logType = logType;
         this.logMethod = logMethod;

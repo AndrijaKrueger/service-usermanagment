@@ -8,7 +8,11 @@ import org.hibernate.validator.constraints.NotEmpty;
 public class UserManagmentConfiguration extends Configuration {
 
     @NotEmpty
-    private String defaultName = "User Management Service";
+    private static String defaultName = "User Management Service";
+
+    public static String getServiceName() {
+        return defaultName;
+    }
 
     @JsonProperty
     public String getDefaultName() {

@@ -26,4 +26,10 @@ public class User extends BaseEntity {
     public void setContacts(Contact contacts) {
         this.contacts = contacts;
     }
+
+    public void checkContact() {
+        if(getContacts() != null) return;
+
+        setContacts(new Contact());
+    }
 }

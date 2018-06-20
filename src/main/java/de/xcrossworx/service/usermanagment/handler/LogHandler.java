@@ -1,30 +1,22 @@
 package de.xcrossworx.service.usermanagment.handler;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import de.xcrossworx.service.usermanagment.App.UserManagmentConfiguration;
 import de.xcrossworx.service.usermanagment.model.LogMessage;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.HttpClientBuilder;
-
-
+import de.xcrossworx.service.usermanagment.model.LogType;
 
 public class LogHandler {
-    private static ObjectMapper mapper = new ObjectMapper();
 
-    public static void logMessage(LogMessage logMessage){
-        try{
-            HttpClient httpClient = HttpClientBuilder.create().build(); //Use this instead
-            HttpPost request = new HttpPost("http://localhost:9001/log-resource");
-            request.addHeader("content-type", "application/json");
+    public static void logMessage(String method, String message, String jsonData) {
+        new Thread(new LogDataRunnable(new LogMessage(UserManagmentConfiguration.getServiceName(), LogType.INFO, method, message, jsonData, null, null))).start();
+    }
 
-            StringEntity params =new StringEntity(mapper.writeValueAsString(logMessage));
-            request.setEntity(params);
+    public static void logErrorMessage(String method, Exception ex) {
+        StringBuilder builder = new StringBuilder();
 
-            HttpResponse response = httpClient.execute(request);
-        }catch (Exception ex){
-
+        for (StackTraceElement stackTraceElement : ex.getStackTrace()) {
+            builder.append(stackTraceElement.toString()+ "\n");
         }
+
+        new Thread(new LogDataRunnable(new LogMessage(UserManagmentConfiguration.getServiceName(), LogType.ERROR, method, null, null, ex.getMessage(), builder.toString()))).start();
     }
 }

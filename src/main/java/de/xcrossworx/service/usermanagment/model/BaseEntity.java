@@ -51,4 +51,5 @@ public abstract class BaseEntity {
     public void setModified(Calendar modified) {
         this.modified = modified;
     }
+
 }

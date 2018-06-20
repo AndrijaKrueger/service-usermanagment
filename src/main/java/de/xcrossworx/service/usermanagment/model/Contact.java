@@ -1,6 +1,7 @@
 package de.xcrossworx.service.usermanagment.model;
 
 import javax.persistence.*;
+import java.util.Calendar;
 
 @Entity
 @Table(name = "Contacts")
@@ -15,11 +16,16 @@ public class Contact extends BaseEntity {
 
 
     public Contact() {
+        setCreated(Calendar.getInstance());
+        setModified(Calendar.getInstance());
     }
 
     public Contact(int id, String name, String mail, String phone, String mobile) {
         setId(id);
         setName(name);
+        setCreated(Calendar.getInstance());
+        setModified(Calendar.getInstance());
+
         this.mail = mail;
         this.phone = phone;
         this.mobile = mobile;

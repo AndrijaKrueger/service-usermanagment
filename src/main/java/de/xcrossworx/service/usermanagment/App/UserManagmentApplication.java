@@ -25,7 +25,7 @@ public class UserManagmentApplication extends Application<UserManagmentConfigura
     public void run(UserManagmentConfiguration userManagmentConfiguration, Environment environment) throws Exception {
         final UserDao userDao = new UserDao();
 
-        final UserResource userResource = new UserResource(userDao, userManagmentConfiguration.getDefaultName());
+        final UserResource userResource = new UserResource(userDao);
         environment.jersey().register(userResource);
 
         final UserResourceHealthCheck userResourceHealthCheck = new UserResourceHealthCheck();

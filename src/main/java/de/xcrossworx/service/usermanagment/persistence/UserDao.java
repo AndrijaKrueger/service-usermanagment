@@ -18,8 +18,6 @@ public class UserDao {
     EntityManagerFactory emf = Persistence.createEntityManagerFactory("Postgres_PU");
     private ObjectMapper mapper = new ObjectMapper();
 
-    private final String SYSTEM_NAME = "User Management Service";
-
     public UserDao() {
     }
 
@@ -32,9 +30,9 @@ public class UserDao {
             update(new User(0, "Samir", new Contact()));
             update(new User(0, "Yvette", new Contact()));
 
-            LogHandler.logMessage(new LogMessage(SYSTEM_NAME, "INFO", "init", "Created User in Database", null, null, null));
+            LogHandler.logMessage("init", "Created Base Users", null);
         } catch (Exception ex) {
-            LogHandler.logMessage(new LogMessage(SYSTEM_NAME, "ERROR", "init", "Failed to created User in Database", null, ex.getMessage(), "Correct the Property"));
+            LogHandler.logErrorMessage("init", ex);
         }
     }
 
@@ -53,9 +51,10 @@ public class UserDao {
         try {
             EntityManager em = emf.createEntityManager();
             users = em.createNamedQuery("User.findAll").getResultList();
-            LogHandler.logMessage(new LogMessage(SYSTEM_NAME, "INFO", "findAll", "Fetch all Users from Database", null, null, null));
+
+            LogHandler.logMessage("findAll", "Fetch all Users from Database", null);
         } catch (Exception ex) {
-            LogHandler.logMessage(new LogMessage(SYSTEM_NAME, "ERROR", "findAll", "Failed to fetch all Users from Database", null, ex.getMessage(), "Correct the Property"));
+            LogHandler.logErrorMessage("findAll", ex);
         }
         return users;
     }
@@ -65,9 +64,9 @@ public class UserDao {
         try {
             EntityManager em = emf.createEntityManager();
             user = em.find(User.class, id);
-            LogHandler.logMessage(new LogMessage(SYSTEM_NAME, "INFO", "findById", "Fetch User from Database", mapper.writeValueAsString(user), null, null));
+            LogHandler.logMessage("findById", "Fetch User with id: " + id, mapper.writeValueAsString(user));
         } catch (Exception ex) {
-            LogHandler.logMessage(new LogMessage(SYSTEM_NAME, "ERROR", "findById", "Failed to fetch User from Database", null, ex.getMessage(), "Correct the Property"));
+            LogHandler.logErrorMessage("findById", ex);
         }
         return user;
     }
@@ -79,15 +78,16 @@ public class UserDao {
             em.getTransaction().begin();
 
             updateCalendar(user);
+            user.checkContact();
 
             mergedUser = em.merge(user);
 
             em.getTransaction().commit();
             em.close();
 
-            LogHandler.logMessage(new LogMessage(SYSTEM_NAME, "INFO", "update", "Update User in Database", mapper.writeValueAsString(user), null, null));
+            LogHandler.logMessage("update", "Update User in Database", mapper.writeValueAsString(mergedUser));
         } catch (Exception ex) {
-            LogHandler.logMessage(new LogMessage(SYSTEM_NAME, "ERROR", "findById", "Failed to update User from Database", null, ex.getMessage(), "Correct the Property"));
+            LogHandler.logErrorMessage("update", ex);
         }
         return mergedUser;
     }

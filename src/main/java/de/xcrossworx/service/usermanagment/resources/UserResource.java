@@ -14,10 +14,8 @@ import java.util.List;
 public class UserResource {
 
     private UserDao userDao;
-    private final String systemName;
 
-    public UserResource(UserDao userDao, String systemName) {
-        this.systemName = systemName;
+    public UserResource(UserDao userDao) {
         this.userDao = userDao;
     }
 
